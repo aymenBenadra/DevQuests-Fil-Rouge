@@ -1,0 +1,40 @@
+@startuml "DevQuests Use Case Diagram"
+left to right direction
+title DevQuests Use Case Diagram
+
+actor "Guest" as guest
+actor "Player" as player
+actor "Admin" as admin
+
+player  -left-|> guest
+
+rectangle {
+  usecase "Browse Projects" as UCG1
+  usecase "Browse Submissions" as UCG2
+  usecase "Search Projects" as UCG3
+  usecase "Start Project" as UCU1
+  usecase "Submit Project" as UCU2
+  usecase "Cancel Submission" as UCU3
+  usecase "Manage Projects" as UCA1
+  usecase "Login" as login
+  usecase "Sign up" as signup
+}
+
+guest -- UCG1
+guest -- UCG2
+guest -- UCG3
+guest -- signup
+
+player -- UCU1
+player -- UCU2
+player -- UCU3
+
+UCA1 -- admin
+
+signup <.. login : <<extends>>
+UCU1 ..> login : <<include>>
+UCU2 ..> login : <<include>>
+UCU3 ..> login : <<include>>
+UCA1 .u.> login : <<include>>
+
+@enduml

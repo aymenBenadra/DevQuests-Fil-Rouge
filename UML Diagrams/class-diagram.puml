@@ -1,0 +1,99 @@
+@startuml
+'https://plantuml.com/class-diagram
+'skinparam lineType ortho
+
+class Project {
+    -id: String
+    -name: String
+    -description: String
+    +getEstimatedTime(): int
+}
+
+class Task {
+    -id: String
+    -name: String
+    -description: String
+    -estimatedTime: int
+}
+
+note right of Task::estimatedTime
+    in hours
+end note
+
+enum Difficulty {
+    +EASY
+    +MEDIUM
+    +HARD
+}
+
+class Submission {
+    -date: Date
+    -status: Status
+    -githubLink: String
+}
+
+enum Status {
+    +WIP
+    +COMPLETED
+    +CANCELED
+}
+
+note left of Status::WIP
+    Work in progress
+end note
+
+class User {
+    -id: String
+    -name: String
+    -username: String
+    -email: String
+    -password: String
+
+    +login(username: String, password: String)
+    +register(name: String, username: String, email: String, password: String)
+    +logout()
+    +findProject(id: String)
+    +findProjects(page: int)
+    +findProjectsByDifficulty(difficulty: Difficulty, page: int)
+    +searchProject(keyword: String, page: int)
+    +findSubmissionsByProject(project: Project, page: int)
+    +findSubmissionsByProjectAndStatus(project: Project, status: Status, page: int)
+}
+
+enum Role {
+    +PLAYER
+    +ADMIN
+}
+
+note right of User
+    A guest can also browse projects and
+    search for projects.
+end note
+
+class Player extends User {
+    -githubUsername: String
+
+    +updateProfile(name: String, githubUsername: String, email: String, password: String)
+    +startProject(project: Project)
+    +submit(project: Project, githubLink: String)
+    +cancelProject(project: Project)
+    +findActiveProjects(page: int)
+    +findCompletedProjects(page: int)
+    +findCanceledProjects(page: int)
+}
+
+class Admin extends User {
+    +addProject(name: String, description: String, difficulty: Difficulty, tasks: List<Task>)
+    +updateProject(id: String, name: String, description: String, difficulty: Difficulty, tasks: List<Task>)
+    +removeProject(id: String)
+}
+
+Project "1" *-- "1,*" Task: - tasks: List<Task> <
+Project "1" *-l- "1,*" Status: - status: Status <
+Project "1" *-r- "1,*" Difficulty: - difficulty: Difficulty <
+User "1,*" *-l- "1" Role: - role: Role <
+Player "0,*" -- "0,*" Project
+(Player, Project) .. Submission: - submissions: List<Submission>
+
+
+@enduml
