@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: projects
+  main:
+    web-application-type: reactive
+  webflux:
+    base-path: /api/projects
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: projects
+      username: root
+      password: password
+      authentication-database: admin
+      auto-index-creation: true
+      repositories:
+        type: reactive
+server:
+  port: 8081

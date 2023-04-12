@@ -4,50 +4,493 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d754549-1087-48ab-b676-b15a8d91ff0e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevQuests-Fil-Rouge.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML Diagrams/class-diagram.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML Diagrams/usecase-diagram.puml" afterDir="false" />
+    <list default="true" id="2d754549-1087-48ab-b676-b15a8d91ff0e" name="Changes" comment="Initial Commit with Class and Use Case diagrams.">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Presentation File rouge/Presentation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/Flow.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/Flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/Flow.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/FlowBootstrap.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/FlowBootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/FlowClient.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/FlowClient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/comboBoxConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/contextMenuConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/contextMenuTargetConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/datepickerConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/dndConnector-es6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/dndConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/flow-component-renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/gridConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/lit-renderer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/lumo-includes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/material-includes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/menubarConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/messageListConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/selectConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/tooltip.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-big-decimal-field.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-dev-tools/License.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-dev-tools/component-picker.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-dev-tools/component-util.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-dev-tools/copy-to-clipboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-dev-tools/shim.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-dev-tools/vaadin-dev-tools.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-grid-flow-selection-column.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-time-picker/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-time-picker/timepickerConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/virtualListConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/vaadin-featureflags.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/vaadin.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/FrontendApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/component/ProjectDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/component/TasksAccordion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/config/SecurityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/config/ServiceClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/data/dto/CompleteSubmissionCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/data/dto/CreateProjectCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/data/dto/CreateSubmissionCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/data/dto/UpdateProjectCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/data/event/CloseEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/data/event/ProjectFormEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/data/event/SubmitEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/data/model/Difficulty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/data/model/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/data/model/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/data/model/Submission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/data/model/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/data/service/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/data/service/SubmissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/layout/MainLayout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/view/HomeView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/view/LoginView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/view/ProjectDirectoryView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/sakamoto/frontend/view/SubmissionsView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/images/devquests.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/test/java/com/sakamoto/frontend/FrontendApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/src/main/kotlin/com/sakamoto/projects/ProjectsApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/src/main/kotlin/com/sakamoto/projects/dto/CreateProjectCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/src/main/kotlin/com/sakamoto/projects/dto/ErrorResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/src/main/kotlin/com/sakamoto/projects/dto/ProjectResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/src/main/kotlin/com/sakamoto/projects/dto/UpdateProjectCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/src/main/kotlin/com/sakamoto/projects/handler/ProjectsHandler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/src/main/kotlin/com/sakamoto/projects/model/Difficulty.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/src/main/kotlin/com/sakamoto/projects/model/Project.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/src/main/kotlin/com/sakamoto/projects/model/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/src/main/kotlin/com/sakamoto/projects/repository/ProjectRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/src/main/kotlin/com/sakamoto/projects/router/ProjectsRouterConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/src/test/kotlin/com/sakamoto/projects/ProjectsApplicationTests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submissions/src/main/kotlin/com/sakamoto/submissions/config/GlobalExceptionHandler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submissions/src/main/kotlin/com/sakamoto/submissions/dto/CompleteSubmissionCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submissions/src/main/kotlin/com/sakamoto/submissions/dto/CreateSubmissionCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submissions/src/main/kotlin/com/sakamoto/submissions/dto/ErrorResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submissions/src/main/kotlin/com/sakamoto/submissions/dto/SubmissionResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submissions/src/main/kotlin/com/sakamoto/submissions/exception/SubmissionException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submissions/src/main/kotlin/com/sakamoto/submissions/exception/SubmissionNotFoundException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submissions/src/main/kotlin/com/sakamoto/submissions/function/SubmissionFunctions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submissions/src/main/kotlin/com/sakamoto/submissions/model/Status.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submissions/src/main/kotlin/com/sakamoto/submissions/model/Submission.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submissions/src/main/kotlin/com/sakamoto/submissions/repository/SubmissionRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submissions/src/main/kotlin/com/sakamoto/submissions/service/SubmissionService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevQuests-Fil-Rouge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML Diagrams/class-diagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/UML Diagrams/class-diagram.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML Diagrams/usecase-diagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/UML Diagrams/usecase-diagram.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/actions">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/frontend">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/projects">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/submissions">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/projects">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/frontend">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/submissions">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="devquests" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="devquests" type="f1a62948:ProjectNode" />
+                <item name="frontend" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="devquests" type="f1a62948:ProjectNode" />
+                <item name="frontend" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="devquests" type="f1a62948:ProjectNode" />
+                <item name="frontend" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="devquests" type="f1a62948:ProjectNode" />
+                <item name="submissions" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="devquests" type="f1a62948:ProjectNode" />
+                <item name="submissions" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="devquests" type="f1a62948:ProjectNode" />
+                <item name="submissions" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="devquests" type="f1a62948:ProjectNode" />
+                <item name="submissions" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="UML Use Case" />
         <option value="UML Class" />
+        <option value="Kotlin Sealed Interface" />
+        <option value="Kotlin Enum" />
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin Class" />
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Kotlin Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-server/24.0.0/c07746ce5310a3ba95650bbf94b3e9b430f20e85/flow-server-24.0.0-sources.jar!/com/vaadin/flow/component/HasSize.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-split-layout-flow/24.0.0/2de1a67fb1f6490fcd79bc8aed15231f8307acb9/vaadin-split-layout-flow-24.0.0-sources.jar!/com/vaadin/flow/component/splitlayout/SplitLayout.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/3.0.2/2ba077f7f18a70a5737a4c8b82a9ed38a275165a/spring-data-commons-3.0.2-sources.jar!/org/springframework/data/repository/kotlin/CoroutineCrudRepository.kt" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/6.0.2/f73729dc88b6c0be1bbe36f83c381a704dd48eec/spring-security-core-6.0.2-sources.jar!/org/springframework/security/core/userdetails/User.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2M8RmP4iRuTlCz0hm1WC1t2pcVq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultPlantUmlFileTemplate": "UML Class",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;jbr-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/youcode/IdeaProjects/devquests/Presentation File rouge&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3137931&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;0d570cb2-96df-43cc-80da-7f777e6d0afe&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;61c7c529b7e101a8c54723e5df630a36&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\youcode\\AppData\\Local\\JetBrains\\Toolbox\\apps\\IDEA-U\\ch-0\\223.8836.41\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;HTTP Request&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\youcode\IdeaProjects\devquests\frontend\src\main\resources\META-INF\resources\images" />
+      <recent name="C:\Users\youcode\IdeaProjects\devquests\frontend\src\main\java\com\sakamoto\frontend\config" />
+      <recent name="C:\Users\youcode\IdeaProjects\devquests\frontend\src\main\java\com\sakamoto\frontend\data\dto" />
+      <recent name="C:\Users\youcode\IdeaProjects\DevQuests-Fil-Rouge" />
+      <recent name="C:\Users\youcode\IdeaProjects\DevQuests-Fil-Rouge\Docs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\youcode\IdeaProjects\devquests" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.sakamoto.submissions.function" />
+      <recent name="com.sakamoto.submissions.config" />
+      <recent name="com.sakamoto.submissions.repository" />
+      <recent name="com.sakamoto.projects.handler" />
+      <recent name="com.sakamoto.projects.repository" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.sakamoto.projects.dto" />
+      <recent name="com.sakamoto.frontend.data.dto" />
+      <recent name="com.sakamoto.submissions.dto" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sakamoto.frontend.view" />
+      <recent name="com.sakamoto.frontend.data.dto" />
+      <recent name="com.sakamoto.frontend.component" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.FrontendApplication (1)">
+    <configuration name="devquests:frontend [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/frontend" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="devquests:submissions [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/submissions" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="devquests:submissions [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/submissions" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="devquests:submissions [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/submissions" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ActionsApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="devquests.actions.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sakamoto.actions.ActionsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActionsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="actions.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sakamoto.actions.ActionsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrontendApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="devquests.frontend.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sakamoto.frontend.FrontendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrontendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="frontend.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sakamoto.frontend.FrontendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectsApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="devquests.projects.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sakamoto.projects.ProjectsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="projects.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sakamoto.projects.ProjectsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubmissionsApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="devquests.submissions.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sakamoto.submissions.SubmissionsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubmissionsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="submissions.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sakamoto.submissions.SubmissionsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.mongo-express: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="mongo-express" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.devquests:frontend [build]" />
+        <item itemvalue="Gradle.devquests:submissions [build]" />
+        <item itemvalue="Docker.docker-compose.yml.mongo-express: Compose Deployment" />
+        <item itemvalue="Gradle.devquests:submissions [bootJar]" />
+        <item itemvalue="Gradle.devquests:submissions [bootRun]" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,11 +499,56 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677147383808</updated>
-      <workItem from="1677147386522" duration="7944000" />
+      <workItem from="1677147386522" duration="8125000" />
+      <workItem from="1677161590458" duration="802000" />
+      <workItem from="1677513810873" duration="3415000" />
+      <workItem from="1677525473550" duration="6160000" />
+      <workItem from="1677588425104" duration="13829000" />
+      <workItem from="1678109313418" duration="7884000" />
+      <workItem from="1678284781941" duration="11966000" />
+      <workItem from="1678873372707" duration="1242000" />
+      <workItem from="1678924189675" duration="3000" />
+      <workItem from="1678957597820" duration="3000" />
+      <workItem from="1678960708251" duration="258000" />
+      <workItem from="1679492834772" duration="215000" />
+      <workItem from="1679493093451" duration="262000" />
+      <workItem from="1679909194509" duration="12446000" />
+      <workItem from="1679927297963" duration="3052000" />
+      <workItem from="1679999655917" duration="17174000" />
+      <workItem from="1680091656120" duration="927000" />
+      <workItem from="1680174085324" duration="2284000" />
+      <workItem from="1680441862356" duration="604000" />
+      <workItem from="1680518949664" duration="2641000" />
+      <workItem from="1680528171834" duration="715000" />
+      <workItem from="1680605248984" duration="1980000" />
+      <workItem from="1680608595317" duration="8487000" />
+      <workItem from="1680649483370" duration="14375000" />
+      <workItem from="1680822235613" duration="3146000" />
+      <workItem from="1680954932271" duration="20372000" />
+      <workItem from="1681170778763" duration="12559000" />
+      <workItem from="1681248751724" duration="17583000" />
+      <workItem from="1681292164544" duration="4365000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit with Class and Use Case diagrams.">
+      <created>1677161410755</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677161410755</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial Commit with Class and Use Case diagrams." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit with Class and Use Case diagrams." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

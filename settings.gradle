@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'devquests'
+
+include 'projects'
+include 'submissions'
+include 'frontend'

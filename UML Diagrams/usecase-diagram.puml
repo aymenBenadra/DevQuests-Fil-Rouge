@@ -11,7 +11,7 @@ player  -left-|> guest
 rectangle {
   usecase "Browse Projects" as UCG1
   usecase "Browse Submissions" as UCG2
-  usecase "Search Projects" as UCG3
+  usecase "Check Project details" as UCG3
   usecase "Start Project" as UCU1
   usecase "Submit Project" as UCU2
   usecase "Cancel Submission" as UCU3

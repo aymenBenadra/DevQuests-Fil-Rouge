@@ -16,7 +16,7 @@ class Task {
     -estimatedTime: int
 }
 
-note right of Task::estimatedTime
+note left of Task::estimatedTime
     in hours
 end note
 
@@ -28,7 +28,6 @@ enum Difficulty {
 
 class Submission {
     -date: Date
-    -status: Status
     -githubLink: String
 }
 
@@ -38,7 +37,7 @@ enum Status {
     +CANCELED
 }
 
-note left of Status::WIP
+note right of Status::WIP
     Work in progress
 end note
 
@@ -88,12 +87,11 @@ class Admin extends User {
     +removeProject(id: String)
 }
 
-Project "1" *-- "1,*" Task: - tasks: List<Task> <
-Project "1" *-l- "1,*" Status: - status: Status <
+Project "1" *-l- "1,*" Task: - tasks: List<Task> <
+Submission "1" *-r- "1,*" Status: - status: Status <
 Project "1" *-r- "1,*" Difficulty: - difficulty: Difficulty <
 User "1,*" *-l- "1" Role: - role: Role <
 Player "0,*" -- "0,*" Project
-(Player, Project) .. Submission: - submissions: List<Submission>
-
+(Player, Project) .. Submission: - submission: Submission
 
 @enduml
